@@ -1,0 +1,11 @@
+name: pKnockbackChanger
+version: 1.0-PRIVATE
+main: br.com.pepe.knockback.Main
+author: "Pedro Szabo Silva"
+default-permission: knockback.change
+description: Um plugin que muda o Knockback do servidor (Privado)
+commands:
+  ReloadKB:
+    permission: reload.knockback
+    usage: /ReloadKB
+    description: Use to reload the knockback plugin.yml
